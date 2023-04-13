@@ -3,6 +3,18 @@
 @import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
 /* font-family: 'RocknRoll One', sans-serif; */
 
+.navigation {
+    list-style: none;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+ .navigation li {
+    display: inline;
+    width: 30%;
+    float: left;
+ }
+
 header > h1 {
     font-family: 'DynaPuff', cursive;
     color: white;
@@ -16,7 +28,7 @@ body {
     color: #371959;
 }
 
-section {
+section > h3 {
     visibility: hidden;
 }
 
@@ -28,4 +40,8 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
+}
+
+.search {
+    text-align: center;
 }
