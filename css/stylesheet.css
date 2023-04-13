@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
+/* font-family: 'DynaPuff', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+/* font-family: 'RocknRoll One', sans-serif; */
+
+.navigation {
+    list-style: none;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+ .navigation li {
+    display: inline;
+    width: 30%;
+    float: left;
+ }
+
+header > h1 {
+    font-family: 'DynaPuff', cursive;
+    color: white;
+    background-color: #093756;
+    text-align: center;
+}
+
+body {
+    font-family: 'RocknRoll One', sans-serif;
+    background-color: #E0DEF4;
+    color: #371959;
+}
+
+section {
+    visibility: hidden;
+}
+
+footer {
+    background-color: #093756;
+    color: white;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.search {
+    text-align: center;
+}
+
+.wishList {
+    text-align: center;
+    height: 175px;
+    position: absolute;
+    top: 250px;
+    bottom: 10px;
+    right: 10px;
+    background-color: #93BFDC;
+}
+
+@media screen and (min-width:640px) {
+    .wishList {
+        width: 30%;
+    }
+
+}
