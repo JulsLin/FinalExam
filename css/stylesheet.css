@@ -28,6 +28,10 @@ body {
     color: #371959;
 }
 
+/* section {
+    visibility: hidden;
+} */
+
 footer {
     background-color: #093756;
     color: white;
