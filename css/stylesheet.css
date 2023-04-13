@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
+/* font-family: 'DynaPuff', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+/* font-family: 'RocknRoll One', sans-serif; */
+
+header > h1 {
+    font-family: 'DynaPuff', cursive;
+}
+
+body {
+    font-family: 'RocknRoll One', sans-serif;
+}
