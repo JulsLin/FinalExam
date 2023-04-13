@@ -28,10 +28,6 @@ body {
     color: #371959;
 }
 
-section > h3 {
-    visibility: hidden;
-}
-
 footer {
     background-color: #093756;
     color: white;
@@ -44,4 +40,21 @@ footer {
 
 .search {
     text-align: center;
+}
+
+.wishList {
+    text-align: center;
+    height: 175px;
+    position: absolute;
+    top: 250px;
+    bottom: 10px;
+    right: 10px;
+    background-color: #93BFDC;
+}
+
+@media screen and (min-width:640px) {
+    .wishList {
+        width: 30%;
+    }
+
 }
