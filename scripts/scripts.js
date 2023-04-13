@@ -24,7 +24,7 @@ function addImages1() {
     image.setAttribute("src", "Images/Book4.png");
     image.setAttribute("alt", "The Two Towers");
 }
-addImages1();
+addImages1()
 
-const displayImages = document.getElementsByClassName('Images')
+[SECTION].style.visibility='visible'
 
